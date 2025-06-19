@@ -31,6 +31,11 @@ DC Generator is an interactive command-line tool that simplifies the creation of
 
 Whether you're working with Node.js, Go, Python, PHP, Rust, .NET, or need a custom setup, DC Generator makes it easy to create a properly configured `devcontainer.json` file with just a few interactive prompts.
 
+<div align="center">
+    <img src=".github/readme/image.png" alt="DC Generator Interface" width="600">
+    <p><em>Beautiful interactive terminal interface</em></p>
+</div>
+
 ## Features
 
 - 🎨 **Beautiful Interactive UI** - Powered by Charm's Huh and Lipgloss libraries
@@ -87,6 +92,52 @@ Whether you're working with Node.js, Go, Python, PHP, Rust, .NET, or need a cust
    - Confirm to generate the `devcontainer.json` file
 
 4. The tool will create a `.devcontainer/devcontainer.json` file in your project root.
+
+### Interactive Workflow
+
+The tool guides you through a step-by-step process:
+
+**1. Project Name Configuration**
+
+<div align="center">
+    <img src=".github/readme/name.png" alt="Project Name Input" width="500">
+</div>
+
+**2. Base Image Selection**
+
+<div align="center">
+    <img src=".github/readme/image.png" alt="Image Selection" width="500">
+</div>
+
+**3. Options**
+
+<div align="center">
+    <img src=".github/readme/options.png" alt="Options" width="500">
+</div>
+
+**4. Post-Create Command Setup**
+
+<div align="center">
+    <img src=".github/readme/post_command.png" alt="Post Create Command" width="500">
+</div>
+
+**5. VS Code Settings Configuration**
+
+<div align="center">
+    <img src=".github/readme/settings.png" alt="Settings Configuration" width="500">
+</div>
+
+**6. DevContainer Features Selection**
+
+<div align="center">
+    <img src=".github/readme/features.png" alt="Features Selection" width="500">
+</div>
+
+**7. Configuration Summary & Confirmation**
+
+<div align="center">
+    <img src=".github/readme/summary.png" alt="Configuration Summary" width="500">
+</div>
 
 ## Supported Images
 
